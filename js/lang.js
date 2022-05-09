@@ -11,7 +11,7 @@ $(function() {
         $(".lang").children().eq(0).text("Español");
         $(".lang").children().eq(1).text("Ingles");
         //Perfil
-        $("#career_profile_text").text("Estudiante de séptimo semestre de Ingeniería de Sistemas de la Institución Universitaria de Envigado. Con conocimiento en bases de datos SQL Server, MySQL y Oracle, programación web en PHP, aplicaciones de escritorio en JAVA y C#. Además de ser proactivo, responsable, con iniciativa y puntualidad, asumo todos aquellos retos y metas que la organización me pueda plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, así como para resolver problemas eficientemente y con facilidad para el rápido aprendizaje ante los cambios constantes de la tecnología");
+        $("#career_profile_text").text("Con capacidades eficientes para la aplicación de habilidades, destrezas, valores y comportamientos sobre actividades productivas relacionadas con bases de datos SQL Server, MySQL y Oracle, programación web en PHP, JavaScript, JQuery, Ajax y Vue.JS. Además de ser proactivo, responsable, con iniciativa y puntualidad, asumo todos aquellos retos y metas que la organización me pueda plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, así como para resolver problemas eficientemente y con facilidad para el rápido aprendizaje ante los cambios constantes de la tecnología.");
         //Experiencia
         $("#experience_title").text("EXPERIENCIA");
         $("#experience_job1").text("AUXILIAR DE SISTEMAS");
