@@ -16,6 +16,10 @@ $(function() {
         $("#experience_title").text("EXPERIENCIA");
         $("#experience_job1").text("AUXILIAR DE SISTEMAS");
         $("#experience_date1").text("Noviembre 2017 - Presente");
+        $("#experience_job_function1").text("Administración de la base de datos.");
+        $("#experience_job_function2").text("Administrar la intranet corporativa.");
+        $("#experience_job_function3").text("Realización de consultas en SQL para la elaboración de informes.");
+        $("#experience_job_function4").text("Administración de servidores.");
         //Educación
         $("#education_title").text("EDUCACIÓN");
         $("#education_school1").text("Institución Universitaria de Envigado");
@@ -81,6 +85,10 @@ $(function() {
         $("#experience_title").text("EXPERIENCE");
         $("#experience_job1").text("SYSTEMS ASSISTANT");
         $("#experience_date1").text("November 2017 - Present");
+        $("#experience_job_function1").text("Database management.");
+        $("#experience_job_function2").text("Manage the corporate intranet.");
+        $("#experience_job_function3").text("Carrying out queries in SQL for the preparation of reports.");
+        $("#experience_job_function4").text("Server Management.");
         //Education
         $("#education_title").text("EDUCATION");
         $("#education_school1").text("University Institution of Envigado");
