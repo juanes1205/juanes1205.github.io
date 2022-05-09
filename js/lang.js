@@ -11,7 +11,7 @@ $(function() {
         $(".lang").children().eq(0).text("Español");
         $(".lang").children().eq(1).text("Ingles");
         //Perfil
-        $("#career_profile_text").text("Con capacidades eficientes para la aplicación de habilidades, destrezas, valores y comportamientos sobre actividades productivas relacionadas con bases de datos SQL Server, MySQL y Oracle, programación web en PHP, JavaScript, JQuery, Ajax y Vue.JS. Además de ser proactivo, responsable, con iniciativa y puntualidad, asumo todos aquellos retos y metas que la organización me pueda plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, así como para resolver problemas eficientemente y con facilidad para el rápido aprendizaje ante los cambios constantes de la tecnología.");
+        $("#career_profile_text").text("Estudiante de séptimo semestre de Ingeniería de Sistemas de la Institución Universitaria de Envigado. Con conocimiento en bases de datos SQL Server, MySQL y Oracle, programación web en PHP, aplicaciones de escritorio en JAVA y C#. Además de ser proactivo, responsable, con iniciativa y puntualidad, asumo todos aquellos retos y metas que la organización me pueda plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, así como para resolver problemas eficientemente y con facilidad para el rápido aprendizaje ante los cambios constantes de la tecnología");
         //Experiencia
         $("#experience_title").text("EXPERIENCIA");
         $("#experience_job1").text("AUXILIAR DE SISTEMAS");
@@ -60,6 +60,7 @@ $(function() {
         //Habilidades y Destrezas
         $("#skills_title").text("HABILIDADES Y DESTREZAS");
         $("#skills_tools").text("Herramientas y lenguajes de programación");
+
     });
 });
 
@@ -76,7 +77,7 @@ $(function() {
         $(".lang").children().eq(0).text("Spanish");
         $(".lang").children().eq(1).text("English");
         //Profile
-        $("#career_profile_text").text("With efficient capabilities for the application of skills, abilities, values ​​and behaviors on productive activities related to SQL Server, MySQL and Oracle databases, web programming in PHP, JavaScript, JQuery, Ajax and Vue.JS. In addition to being proactive, responsible, with initiative and punctuality, I assume all those challenges and goals that the organization may set for me; with good management of interpersonal relationships, ability to work in a team, as well as to solve problems efficiently and with the ability to learn quickly in the face of constant changes in technology.");
+        $("#career_profile_text").text("Seventh-semester student of Systems Engineering at the Envigado University Institution. With knowledge in SQL Server, MySQL and Oracle databases, web programming in PHP, desktop applications in JAVA and C#. In addition to being proactive, responsible, with initiative and punctuality, I assume all those challenges and goals that the organization may set for me; with good handling of interpersonal relationships, ability to work in a team, as well as to solve problems efficiently and with the ability to learn quickly in the face of constant changes in technology.");
         //Experience
         $("#experience_title").text("EXPERIENCE");
         $("#experience_job1").text("SYSTEMS ASSISTANT");
@@ -127,5 +128,22 @@ $(function() {
         $("#skills_tools").text("Programming Languages & Tools");
 
     
+
+
+
+
+        $(".language-selected").text("en-US");
+        $(".language-selected").removeClass("change-es");
+        $(".language-selected").removeClass("change-br");
+        $(".language-selected").addClass("change-en");
+        //section
+        $("#title").text("A simple webpage with Milti-language option");
+        //About
+        $(".about-container ul:nth-child(1) li:nth-child(1) a").text("Help Center");
+        $(".about-container ul:nth-child(1) li:nth-child(2) a").text("Ethics Line");
+        $(".about-container ul:nth-child(1) li:nth-child(3) a").text("Payments");
+        $(".about-container ul:nth-child(2) li:nth-child(1) a").text("Support");
+        $(".about-container ul:nth-child(2) li:nth-child(2) a").text("Help Center");
+        $(".about-container ul:nth-child(2) li:nth-child(3) a").text("Terms and Policies");
     });
 });
