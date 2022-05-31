@@ -7,9 +7,6 @@ $(function() {
         $(".nav-item").children().eq(2).text("EDUCACIÓN");
         $(".nav-item").children().eq(3).text("CURSOS");
         $(".nav-item").children().eq(4).text("HABILIDADES Y DESTREZAS");
-        //Idioma
-        $(".lang").children().eq(0).text("Español");
-        $(".lang").children().eq(1).text("Ingles");
         //Perfil
         $("#career_profile_text1").text("Con capacidades eficientes para la aplicación de habilidades, destrezas, valores y comportamientos sobre actividades productivas relacionadas con bases de datos SQL Server y MySQL, programación web en PHP, también con conocimientos en actualización, instalación y configuración de computadores, mantenimiento correctivo y preventivo de Software y Hardware, configuración e instalación de Redes LAN.");
         $("#career_profile_text2").text("Además de ser proactivo, responsable, con iniciativa y puntualidad, asumo todos aquellos retos y metas que la organización me pueda plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, así como para resolver problemas eficientemente y con facilidad para el rápido aprendizaje ante los cambios constantes de la tecnología.");
@@ -38,7 +35,8 @@ $(function() {
         $("#education_college_career3").text("Técnico Laboral en Análisis y Programación de Computadores");
         $("#education_date3").text("Febrero 2017 - Agosto 2018");
         //Cursos
-        $("#course_name14").text("Redes y Seguridad"); 
+        $("#course_name14").text("Redes y Seguridad");
+        $("#course_date14").text("Actualmente");
         $("#course_name13").text("Desarrollo web profesional en PHP con Laravel 7");        
         $("#course_date13").text("Actualmente");
         $("#course_name12").text("Desarrollo de sistemas web en PHP 7 POO, MySQL, JQuery Ajax");       
@@ -83,9 +81,6 @@ $(function() {
         $(".nav-item").children().eq(2).text("EDUCATION");
         $(".nav-item").children().eq(3).text("COURSES");
         $(".nav-item").children().eq(4).text("SKILLS & PROFICIENCY");
-        //Language
-        $(".lang").children().eq(0).text("Spanish");
-        $(".lang").children().eq(1).text("English");
         //Profile
         $("#career_profile_text1").text("With efficient capacities for the application of abilities, skills, values and behaviors on productive activities related to SQL Server and MySQL databases, web programming in PHP, also with knowledge in updating, installing and configuring computers, corrective and preventive maintenance of Software. and Hardware, configuration and installation of LAN networks.");
         $("#career_profile_text2").text("In addition to being proactive, responsible, with initiative and punctuality, I assume all those challenges and goals that the organization may set for me; with good management of interpersonal relationships, ability to work in a team, as well as to solve problems efficiently and with the ability to learn quickly in the face of constant changes in technology.");
